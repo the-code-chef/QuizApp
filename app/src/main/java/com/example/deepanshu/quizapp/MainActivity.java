@@ -12,12 +12,14 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    private int scores = 0;
+    int scores;
 
     // Declare all views
     private RadioGroup one;
     private LinearLayout two;
+    private CheckBox twoA;
     private CheckBox twoB;
+    private CheckBox twoC;
     private CheckBox twoD;
     private RadioGroup three;
     private RadioGroup four;
@@ -34,7 +36,9 @@ public class MainActivity extends AppCompatActivity {
         // Initialize all views
         one = (RadioGroup) findViewById(R.id.q_one_rg);
         two = (LinearLayout) findViewById(R.id.checkbox_question);
+        twoA = (CheckBox) findViewById(R.id.q_two_a);
         twoB = (CheckBox) findViewById(R.id.q_two_b);
+        twoC = (CheckBox) findViewById(R.id.q_two_c);
         twoD = (CheckBox) findViewById(R.id.q_two_d);
         three = (RadioGroup) findViewById(R.id.q_three_rg);
         four = (RadioGroup) findViewById(R.id.q_four_rg);
@@ -83,12 +87,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Check for answer two
-        if (twoB.isChecked()) {
-            scores++;
-        }
-
-        if (twoD.isChecked()) {
-            scores++;
+        if (twoB.isChecked() && twoD.isChecked() && !twoA.isChecked() && !twoC.isChecked()) {
+            increaseScore();
         }
 
         // Check for answer three

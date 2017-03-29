@@ -54,6 +54,7 @@
                 android:text="@string/question_two" />
 
             <CheckBox
+                android:id="@+id/q_two_a"
                 style="@style/checkbox_answers"
                 android:text="@string/a_two_one" />
 
@@ -63,6 +64,7 @@
                 android:text="@string/a_two_two" />
 
             <CheckBox
+                android:id="@+id/q_two_c"
                 style="@style/checkbox_answers"
                 android:text="@string/a_two_three" />
 
