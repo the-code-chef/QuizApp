@@ -25,23 +25,19 @@
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="oneAnswered"
                     android:text="@string/a_one_one" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="oneAnswered"
                     android:text="@string/a_one_two" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="oneAnswered"
                     android:text="@string/a_one_three" />
 
                 <RadioButton
                     android:id="@+id/q_one_d"
                     style="@style/radio_buttons"
-                    android:onClick="oneAnswered"
                     android:text="@string/a_one_four" />
             </RadioGroup>
 
@@ -59,24 +55,20 @@
 
             <CheckBox
                 style="@style/checkbox_answers"
-                android:onClick="twoAnswered"
                 android:text="@string/a_two_one" />
 
             <CheckBox
                 android:id="@+id/q_two_b"
                 style="@style/checkbox_answers"
-                android:onClick="twoAnswered"
                 android:text="@string/a_two_two" />
 
             <CheckBox
                 style="@style/checkbox_answers"
-                android:onClick="twoAnswered"
                 android:text="@string/a_two_three" />
 
             <CheckBox
                 android:id="@+id/q_two_d"
                 style="@style/checkbox_answers"
-                android:onClick="twoAnswered"
                 android:text="@string/a_two_four" />
 
         </LinearLayout>
@@ -97,23 +89,19 @@
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="threeAnswered"
                     android:text="@string/a_three_one" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="threeAnswered"
                     android:text="@string/a_three_two" />
 
                 <RadioButton
                     android:id="@+id/q_three_c"
                     style="@style/radio_buttons"
-                    android:onClick="threeAnswered"
                     android:text="@string/a_three_three" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="threeAnswered"
                     android:text="@string/a_three_four" />
 
             </RadioGroup>
@@ -130,29 +118,25 @@
                 android:text="@string/question_four" />
 
             <RadioGroup
-                android:id="@+id/q_four_group"
+                android:id="@+id/q_four_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
                     android:id="@+id/q_four_a"
                     style="@style/radio_buttons"
-                    android:onClick="fourAnswered"
                     android:text="@string/a_four_a" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fourAnswered"
                     android:text="@string/a_four_b" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fourAnswered"
                     android:text="@string/a_four_c" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fourAnswered"
                     android:text="@string/a_four_d" />
 
             </RadioGroup>
@@ -169,29 +153,25 @@
                 android:text="@string/question_five" />
 
             <RadioGroup
-                android:id="@+id/q_five_group"
+                android:id="@+id/q_five_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fiveAnswered"
                     android:text="@string/a_five_a" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fiveAnswered"
                     android:text="@string/a_five_b" />
 
                 <RadioButton
                     android:id="@+id/q_five_c"
                     style="@style/radio_buttons"
-                    android:onClick="fiveAnswered"
                     android:text="@string/a_five_c" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="fiveAnswered"
                     android:text="@string/a_five_d" />
 
             </RadioGroup>
@@ -227,29 +207,25 @@
                 android:text="@string/question_seven" />
 
             <RadioGroup
-                android:id="@+id/q_seven_group"
+                android:id="@+id/q_seven_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
                     android:id="@+id/q_seven_a"
                     style="@style/radio_buttons"
-                    android:onClick="sevenAnswered"
                     android:text="@string/a_seven_a" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="sevenAnswered"
                     android:text="@string/a_seven_b" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="sevenAnswered"
                     android:text="@string/a_seven_c" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="sevenAnswered"
                     android:text="@string/a_seven_d" />
 
             </RadioGroup>
@@ -266,29 +242,25 @@
                 android:text="@string/question_eight" />
 
             <RadioGroup
-                android:id="@+id/q_eight_group"
+                android:id="@+id/q_eight_rg"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="eightAnswered"
                     android:text="@string/a_eight_a" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="eightAnswered"
                     android:text="@string/a_eight_b" />
 
                 <RadioButton
                     style="@style/radio_buttons"
-                    android:onClick="eightAnswered"
                     android:text="@string/a_eight_c" />
 
                 <RadioButton
                     android:id="@+id/q_eight_d"
                     style="@style/radio_buttons"
-                    android:onClick="eightAnswered"
                     android:text="@string/a_eight_d" />
 
             </RadioGroup>

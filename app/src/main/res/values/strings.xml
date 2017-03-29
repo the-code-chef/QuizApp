@@ -56,5 +56,7 @@
 
     <!-- Submit Button -->
     <string name="submit">Submit</string>
+    <string name="all_question">You have not answer all correctly</string>
+    <string name="all_answer">You have answer all correctly</string>
 
 </resources>
