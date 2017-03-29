@@ -1,3 +1,60 @@
 <resources>
     <string name="app_name">QuizApp</string>
+
+    <!-- Question 1 -->
+    <string name="question_one">Who developed Android?</string>
+    <string name="a_one_one">George Boole</string>
+    <string name="a_one_two">Sundar Pichai</string>
+    <string name="a_one_three">Google</string>
+    <string name="a_one_four">Open Handset Alliance(OHA)</string>
+
+    <!-- Question 2 -->
+    <string name="question_two">Which of the Programming Language Android Based On?</string>
+    <string name="a_two_one">HTML5/CSS3</string>
+    <string name="a_two_two">XML</string>
+    <string name="a_two_three">Ruby</string>
+    <string name="a_two_four">Java</string>
+
+    <!-- Question 3 -->
+    <string name="question_three">Web browser available in android is based on?</string>
+    <string name="a_three_one">Chrome</string>
+    <string name="a_three_two">Firefox</string>
+    <string name="a_three_three">Open-source Webkit</string>
+    <string name="a_three_four">Opera</string>
+
+    <!-- Question 4 -->
+    <string name="question_four">Android is based on which kernel?</string>
+    <string name="a_four_a">Linux kernel</string>
+    <string name="a_four_b">Windows kernel</string>
+    <string name="a_four_c">MAC kernel</string>
+    <string name="a_four_d">All of the above</string>
+
+    <!-- Question 5 -->
+    <string name="question_five">Is it possible to have an activity without UI to perform action/actions?</string>
+    <string name="a_five_a">Not possible</string>
+    <string name="a_five_b">Wrong question</string>
+    <string name="a_five_c">Yes, it is possible</string>
+    <string name="a_five_d">None of the above</string>
+
+    <!-- Question 6 -->
+    <string name="question_six">How many orientations does android support?</string>
+    <string name="a_six">Enter a number</string>
+
+    <!-- Question 7 -->
+    <string name="question_seven">Which permissions are required to get a location in android?</string>
+    <string name="a_seven_a">ACCESS_FINE and ACCESS_COARSE</string>
+    <string name="a_seven_b">GPRS permission</string>
+    <string name="a_seven_c">Internet permission</string>
+    <string name="a_seven_d">WIFI permission</string>
+
+    <!-- Question 8 -->
+    <string name="question_eight">What is a thread in android?</string>
+    <string name="a_eight_a">Same as services</string>
+    <string name="a_eight_b">Background activity</string>
+    <string name="a_eight_c">Broadcast Receiver</string>
+    <string name="a_eight_d">Independent dis-patchable unit is called a thread</string>
+
+    <!-- Submit Button -->
+    <string name="submit">Submit</string>
+
 </resources>

@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="ffffff">#ffffff</color>
+    <color name="one">#BDBDBD</color>
+    <color name="two">#C5CAE9</color>
+    <color name="three">#757575</color>
+    <color name="four">#009688</color>
+    <color name="five">#00BCD4</color>
+    <color name="six">#8BC34A</color>
+    <color name="eight">#388E3C</color>
+    <color name="seven">#FFE0B2</color>
 </resources>
